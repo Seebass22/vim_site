@@ -1,0 +1,51 @@
+html{
+	background-color: "#00ab34";
+}
+
+body {
+	background-color: #00ab34;
+}
+
+h1 {
+	outline-style: solid;
+	width: auto;
+	background-color: #148c38;
+	font-family: FreeMono, monospace;
+}
+
+p {
+	/* margin-top: 50px; */
+	margin-bottom: 20px;
+}
+
+.navbox {
+	text-align: center;
+}
+
+.navlink {
+	background-color: #4bf35d;
+	margin: 10px;
+	border-style: solid;
+	border-color: #1c5422;
+	border-radius: 5px;
+	color: black;
+	padding: 5px;
+	font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #34b342;
+}
+
+
+.logo {
+	width: 32px;
+	height: 50px;
+	transition: width 2s, height 2s;
+}
+
+.logo:hover {
+	width: 48px;
+	height: 75px;
+}
