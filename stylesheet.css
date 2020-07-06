@@ -6,15 +6,16 @@ body {
 	background-color: #00ab34;
 }
 
-h1 {
+.header {
 	outline-style: solid;
 	width: auto;
 	background-color: #148c38;
 	font-family: FreeMono, monospace;
 }
 
-p {
-	/* margin-top: 50px; */
+.main_content {
+	margin-top: 20px;
+	margin-left: 20px;
 	margin-bottom: 20px;
 }
 
@@ -34,7 +35,7 @@ p {
 	text-decoration: none;
 }
 
-a:hover {
+.navlink:hover {
 	background-color: #34b342;
 }
 
@@ -48,4 +49,14 @@ a:hover {
 .logo:hover {
 	width: 48px;
 	height: 75px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	color: black;
+	background-color: #22b132;
+}
+
+.nav-pills > li > a:hover {
+	color: black;
+	background-color:  #239b30;
 }
