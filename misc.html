@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Miscellaneous tips</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	<div class="container">
+		<div class="row content">
+			<body>
+				<div class="header">
+					<h1>Miscellaneous tips</h1>
+				</div>
+
+				<div class="col-sm-4">
+					<ul class="nav nav-pills nav-stacked">
+						<li><a class="navlink" href="index.html">home</a></li>
+						<li><a class="navlink" href="getting_started.html">Getting started with vim</a></li>
+						<li><a class="navlink" href="ide.html"> IDE features without plugins </a></li>
+						<li><a class="navlink" href="plugins.html"> Plugins that I find useful </a></li>
+						<li class="active"><a class="navlink" href="misc.html"> Miscellaneous tips </a></li>
+						<li><a class="navlink" href="entfernung.html">Entfernung zur Beuth-Hochschule</a></li>
+					</ul>
+					<h4>useful links</h4>
+					<div class="linkbox">
+						<a class="vimlink" href="https://www.vim.org/">official vim page</a><br>
+						<a class="vimlink" href="https://neovim.io/">official neovim page</a><br>
+						<a class="vimlink" href="http://vimcasts.org/">vimcasts</a><br>
+						<a class="vimlink" href="https://www.reddit.com/r/vim/">vim subreddit</a><br>
+						<a class="vimlink" href="https://vimways.org/">vim advent calendar</a><br>
+					</div>
+				</div>
+
+				<div class="col-sm-8">
+					<h4>convert space indents to tabs</h4>
+					<p><code>:set expandtab</code><br><code>:retab!</code></p>
+
+					<h4>search for word under cursor</h4>
+					<p><code>*</code></p>
+
+					<h4>open manpage for word under cursor</h4>
+					<p><code>K</code></p>
+
+					<h4>remove indentation</h4>
+					<p><code>:%left</code></p>
+
+					<h4>jump to next bracket on line, or matching bracket (or HTML tag)</h4>
+					<p><code>%</code></p>
+
+					<h4>go to last edited line</h4>
+					<p><code>g;</code></p>
+
+					<h4>start visual mode with last selection</h4>
+					<p><code>g;</code></p>
+
+					<h4>move to other end of visual selection</h4>
+					<p><code>o</code></p>
+
+					<h4>close all windows but the current one</h4>
+					<p><code>:only</code></p>
+
+					<h4>move back and forward to previous positons (see <code>:help jumplist</code>)</h4>
+					<p><code>CTRL-I</code></p>
+					<p><code>CTRL-O</code></p>
+
+					<h4>increment or decrement number under cursor</h4>
+					<p><code>CTRL-A</code></p>
+					<p><code>CTRL-X</code></p>
+
+					<h4>invert case of character under cursor</h4>
+					<p><code>~</code></p>
+
+					<h4>edit file remotely (over ssh)</h4>
+					<p><code>vim scp://user@host//absolute/path/to/document</code></p>
+				</div>
+			</body>
+		</div>
+	</div>
+</html>
