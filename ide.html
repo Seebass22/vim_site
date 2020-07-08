@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Getting started with vim</title>
+		<title>IDE features without plugins</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -14,14 +14,14 @@
 		<div class="row content">
 			<body>
 				<div class="header">
-					<h1>Getting started with vim</h1>
+					<h1>IDE features without using plugins</h1>
 				</div>
 
 				<div class="col-sm-4">
 					<ul class="nav nav-pills nav-stacked">
 						<li><a class="navlink" href="index.html">home</a></li>
-						<li class="active"><a class="navlink" href="getting_started.html">Getting started with vim</a></li>
-						<li><a class="navlink" href="ide.html"> IDE features without plugins </a></li>
+						<li><a class="navlink" href="getting_started.html">Getting started with vim</a></li>
+						<li class="active"><a class="navlink" href="ide.html"> IDE features without plugins </a></li>
 						<li><a class="navlink" href="plugins.html"> Plugins that I find useful </a></li>
 						<li><a class="navlink" href="misc.html"> Miscellaneous tips </a></li>
 						<li><a class="navlink" href="entfernung.html">Entfernung zur Beuth-Hochschule</a></li>
@@ -37,12 +37,11 @@
 				</div>
 
 				<div class="col-sm-8">
-					<h4>vimtutor</h4>
-					<p>
-					If you've never used vim before, then the first thing you should do is go through the built-in tutorial. Just run <code>vimtutor</code> from the command line if using vim. Or if you're using neovim, you can start the tutorial by typing <code>:Tutor</code> from within neovim. This will teach you the basics and should take around half an hour.
-					<br><br>
-					</p>
-					<script id="asciicast-PLtLmwlxTHHsjLbXWQEE5rE26" src="https://asciinema.org/a/PLtLmwlxTHHsjLbXWQEE5rE26.js" async></script>
+					<h4>compiling using makefiles</h4>
+					<p> Vim has support for running makefiles and showing location of errors and warnings resulting from your compilers output (See <code>:help usr_30.txt</code>).  <br><br> </p>
+
+					<h4>jumping to function definitions</h4>
+					<p>Vim can jump to function definitions as long as you have a tag file. To generate this file you'll need to install ctags (not included with vim). Once you've generated your tags file e.g. by running <code>ctags *.c</code>, you can jump to function declarations by pressing CTRL-], while the cursor is on a function name (see <code>:help usr_29.txt</code>)</p>
 					<p>
 					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc
 					</p>

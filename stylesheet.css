@@ -56,3 +56,25 @@ body {
 	color: black;
 	background-color:  #239b30;
 }
+
+.linkbox {
+	background-color: #22b132;
+	margin: 5px;
+	border-style: solid;
+	border-color: #1c5422;
+	border-radius: 5px;
+}
+
+.vimlink {
+	margin-left: 5px;
+	color: #2e5032;
+}
+
+code {
+	background-color: #2e8338;
+	color: black;
+}
+
+.link {
+ color: black;
+}

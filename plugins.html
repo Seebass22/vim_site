@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Getting started with vim</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	<div class="container">
+		<div class="row content">
+			<body>
+				<div class="header">
+					<h1>Getting started with vim</h1>
+				</div>
+
+				<div class="col-sm-4">
+					<ul class="nav nav-pills nav-stacked">
+						<li><a class="navlink" href="index.html">home</a></li>
+						<li><a class="navlink" href="getting_started.html">Getting started with vim</a></li>
+						<li><a class="navlink" href="ide.html"> IDE features without plugins </a></li>
+						<li class="active"><a class="navlink" href="plugins.html"> Plugins that I find useful </a></li>
+						<li><a class="navlink" href="misc.html"> Miscellaneous tips </a></li>
+						<li><a class="navlink" href="entfernung.html">Entfernung zur Beuth-Hochschule</a></li>
+					</ul>
+					<h4>useful links</h4>
+					<div class="linkbox">
+						<a class="vimlink" href="https://www.vim.org/">official vim page</a><br>
+						<a class="vimlink" href="https://neovim.io/">official neovim page</a><br>
+						<a class="vimlink" href="http://vimcasts.org/">vimcasts</a><br>
+						<a class="vimlink" href="https://www.reddit.com/r/vim/">vim subreddit</a><br>
+						<a class="vimlink" href="https://vimways.org/">vim advent calendar</a><br>
+					</div>
+				</div>
+
+				<div class="col-sm-8">
+					<h4>commentary</h4>
+					<p>
+					<a class="link" href="https://github.com/tpope/vim-commentary">github.com/tpope/vim-commentary</a><br>
+					For some reason, vim does not have a feature for quickly commenting-out lines. This simple plugin fixes that.
+					</p>
+
+					<h4>dispatch</h4>
+					<a class="link" href="https://github.com/tpope/vim-dispatch">github.com/tpope/vim-dispatch</a><br>
+					Vim's <code>:make</code> feature is not asynchronous by default. That means that while make running, you won't be able to use your editor and you'll have to wait for make to finish before you can continue. Dispatch solves this problem by running make in tmux.
+					If you're using neovim, you can make dispatch use the neovim terminal by additionally using <a class="link" href="https://github.com/radenling/vim-dispatch-neovim">this</a> plugin.
+
+					<div style="padding:64.63% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/63116209" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+					<h4>fugitive</h4>
+					<p>
+					<a class="link" href="https://github.com/tpope/vim-fugitive">github.com/tpope/vim-fugitive</a><br>
+					Fugtive is a git-wrapper for vim. It makes using git from within vim easier, for example by automatically deleting the right buffers when you run <code>git rm</code>.<br>
+					This Tim Pope guy sure writes a lot of useful vim plugins, eh?
+				</div>
+			</body>
+		</div>
+	</div>
+</html>
