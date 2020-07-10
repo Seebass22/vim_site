@@ -8,7 +8,6 @@ body {
 
 .header {
 	outline-style: solid;
-	width: auto;
 	background-color: #148c38;
 	font-family: FreeMono, monospace;
 }
@@ -76,5 +75,5 @@ code {
 }
 
 .link {
- color: black;
+	color: black;
 }
