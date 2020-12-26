@@ -74,6 +74,12 @@ code {
 	color: black;
 }
 
+pre {
+	background-color: #2e8338;
+	border-color: black;
+	color: black;
+}
+
 .link {
 	color: black;
 }
